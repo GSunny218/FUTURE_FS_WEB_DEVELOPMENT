@@ -1,0 +1,136 @@
+body {
+    min-width: 900px;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 24px;
+    background-color: antiquewhite;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 80px);
+    min-width: 400px;
+    max-width: 100%;
+}
+
+.intro-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.intro-text {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 50%;
+    height: 500px;
+}
+
+.profile-picture {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.name {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+
+.description {
+    font-family: cursive;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.resume, .contact, .blog, .projects {
+    border: 2px solid #000;
+    padding: 10px 150px;
+    margin: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.resume {
+    background-image: linear-gradient(60deg, yellow, rgb(255, 255, 101), rgb(255, 255, 160), rgb(255, 255, 192), rgb(255, 255, 255));
+}
+
+.contact {
+    background-image: linear-gradient(60deg, lightgreen, rgb(144, 238, 144), rgb(173, 255, 173), rgb(224, 255, 224), rgb(255, 255, 255));
+}
+
+.blog {
+    background-image: linear-gradient(60deg, lightblue, rgb(173, 216, 230), rgb(204, 229, 255), rgb(229, 242, 255), rgb(255, 255, 255));
+}
+
+.projects {
+    background-image: linear-gradient(60deg, lightpink, rgb(255, 182, 193), rgb(255, 204, 219), rgb(255, 229, 237), rgb(255, 255, 255));
+}
+
+.resume:hover {
+    background-image: linear-gradient(60deg, rgb(255, 255, 192), rgb(255, 255, 160), rgb(255, 255, 101), yellow);
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-image: linear-gradient(60deg, rgb(224, 255, 224), rgb(173, 255, 173), rgb(144, 238, 144), lightgreen);
+    cursor: pointer;
+}
+
+.blog:hover {
+    background-image: linear-gradient(60deg, rgb(229, 242, 255), rgb(204, 229, 255), rgb(173, 216, 230), lightblue);
+    cursor: pointer;
+}
+
+.projects:hover {
+    background-image: linear-gradient(60deg, rgb(255, 229, 237), rgb(255, 204, 219), rgb(255, 182, 193), lightpink);
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.instagram, .linkedin, .github {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
