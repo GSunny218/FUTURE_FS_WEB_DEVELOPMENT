@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>My Portfolio - Contact</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">Contact</div>
+    </div>
+    <div class="contact-body">
+        <div class="contact-info">
+            <h2>Get in touch!</h2>
+            <div>Contact Directly</div>
+            <ul>
+                <li><span>&#9742;</span>Phone Number: +91 93210 70483</li>
+                <li><span>&#9993;</span>Email: guptakamlesh469@gmail.com</li>
+                <li><span>&#127968;</span>Address: Samta Nagar, Kali Mata Mandir, Lal Dongar, Chembur, Mumbai - 400071</li>
+            </ul>
+            <div>Follow Me on Social Media</div>
+            <div class="social-media-contact">
+                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=qi3xbp0" target="_blank"><img src="../assets/instagram.png" class="instagram" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/sunny-gupta-992968372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="../assets/linkedin.png" class="linkedin" alt="linkedin"></a>
+            </div>
+        </div>
+        <div class="contact-form-div">
+            <h2 class="form-text">Write Messege ...</h2>
+                <form id="contactForm" class="contact-form">
+                    <label for="name">Enter Your Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your Name" required>
+
+                    <label for="email">Enter Your Email</label>
+                    <input id="email" name="email" type="email" placeholder="Your Email" required>
+
+                    <label for="phone">Enter Your Phone Number</label>
+                    <input id="phone" name="phone" type="tel" placeholder="Your Phone Number" required>
+
+                    <label for="message">Enter your Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <div id="formFeedback" aria-live="polite" style="margin-top:10px"></div>
+                </form>
+
+                <script>
+                    // Client-side JS to POST form data to backend API
+                    (function(){
+                        const form = document.getElementById('contactForm');
+                        const feedback = document.getElementById('formFeedback');
+                        form.addEventListener('submit', async (e) => {
+                            e.preventDefault();
+                            feedback.textContent = 'Sending...';
+                            const data = {
+                                name: form.name.value.trim(),
+                                email: form.email.value.trim(),
+                                phone: form.phone.value.trim(),
+                                message: form.message.value.trim()
+                            };
+
+                            try {
+                                const res = await fetch('http://localhost:3000/api/contact', {
+                                    method: 'POST',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: JSON.stringify(data)
+                                });
+                                if (!res.ok) throw new Error('Server error ' + res.status);
+                                const result = await res.json();
+                                feedback.style.color = 'green';
+                                feedback.textContent = result.message || 'Message sent successfully.';
+                                form.reset();
+                            } catch (err) {
+                                feedback.style.color = 'crimson';
+                                feedback.textContent = 'Failed to send message. ' + (err.message || '');
+                            }
+                        });
+                    })();
+                </script>
+            
+        </div>
+    </div>
+</body>
+</html>
