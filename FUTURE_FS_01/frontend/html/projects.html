@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/projects.css">
+    <title>My Portfolio - Projects</title>
+</head>
+<body>
+    <div class="header">
+        <div>Projects</div>
+    </div>
+    <div class="project-write">
+        <h2>Write Project Details</h2>
+        <form action="" class="project-form" id="projectForm">
+            <label for="title">Write Title</label>
+            <input type="text" name="title" id="project" placeholder="Project Title" required>
+
+            <label for="">Language Used</label>
+            <input type="text" name="language" id="projectLanguage" placeholder="Language Used" required>
+
+            <label for="content">Write About Project</label>
+            <textarea name="content" id="projectContent" rows="6" placeholder="Project Content" name="content" required></textarea>
+
+            <button type="submit" class="submit-btn">Submit Blog</button>
+            <div id="formFeedback" aria-live="polite" style="margin-top:10px"></div>
+        </form>
+    </div>
+    <div class="project-div">
+        <div class="project-container">
+            <h2>Title: Personal Portfolio Website</h2>
+            <div class="project-language">Language Used: HTML, CSS, JavaScript</div>
+            <div class="project-content">
+                <p>
+                    Developed a personal portfolio website to showcase my skills, projects, and experiences in web development. The website features a clean and responsive design, ensuring optimal user experience across various devices. It includes sections for about me, projects, blog posts, and contact information.
+                </p>
+            </div>
+        </div>
+        <script src="../scripts/projects.js"></script>
+    </div>
+</body>
+</html>
