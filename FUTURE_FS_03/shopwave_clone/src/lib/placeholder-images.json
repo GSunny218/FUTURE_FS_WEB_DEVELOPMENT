@@ -1,0 +1,154 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A stylish hero image for an e-commerce store",
+      "imageUrl": "https://images.unsplash.com/photo-1601924623211-3f19dc356e42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2hvcHBpbmclMjByZXRhaWx8ZW58MHx8fHwxNzYxODQ3MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shopping retail"
+    },
+    {
+      "id": "product-1",
+      "description": "Wireless Bluetooth Headphones on a clean background.",
+      "imageUrl": "https://images.unsplash.com/photo-1693841114632-bc1c2760bbfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoZWFkcGhvbmVzJTIwcHJvZHVjdHxlbnwwfHx8fDE3NjE4NDczMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "headphones product"
+    },
+    {
+      "id": "product-2",
+      "description": "Side view of wireless headphones.",
+      "imageUrl": "https://images.unsplash.com/photo-1704440278730-b420f5892700?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFkcGhvbmVzJTIwc2lkZXxlbnwwfHx8fDE3NjE4MzMyNTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "headphones side"
+    },
+    {
+      "id": "product-3",
+      "description": "Headphones being worn by a person.",
+      "imageUrl": "https://images.unsplash.com/photo-1730875652079-bcf04ca5261e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZXJzb24lMjBtdXNpY3xlbnwwfHx8fDE3NjE3NjY3MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person music"
+    },
+    {
+      "id": "product-4",
+      "description": "Modern leather backpack.",
+      "imageUrl": "https://images.unsplash.com/photo-1673906510954-bfa816f5043b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGVhdGhlciUyMGJhY2twYWNrfGVufDB8fHx8MTc2MTc2NjU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather backpack"
+    },
+    {
+      "id": "product-5",
+      "description": "Backpack showing its straps.",
+      "imageUrl": "https://images.unsplash.com/photo-1759164313668-be83af1e09b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxiYWNrcGFjayUyMGRldGFpbHxlbnwwfHx8fDE3NjE4NDczMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "backpack detail"
+    },
+    {
+      "id": "product-6",
+      "description": "Person carrying a leather backpack in a city.",
+      "imageUrl": "https://images.unsplash.com/photo-1563902510362-890595d6ce19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBiYWNrcGFja3xlbnwwfHx8fDE3NjE3NDU4NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person backpack"
+    },
+    {
+      "id": "product-7",
+      "description": "A smart home hub on a table.",
+      "imageUrl": "https://images.unsplash.com/photo-1558089687-f282ffcbc126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzbWFydCUyMGhvbWV8ZW58MHx8fHwxNzYxNzU4NzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart home"
+    },
+    {
+      "id": "product-8",
+      "description": "Smart home hub with glowing lights.",
+      "imageUrl": "https://images.unsplash.com/photo-1758682663426-2fa30181f771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzbWFydCUyMGRldmljZXxlbnwwfHx8fDE3NjE4NDczMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smart device"
+    },
+    {
+      "id": "product-9",
+      "description": "Hand interacting with a smart home hub.",
+      "imageUrl": "https://images.unsplash.com/photo-1478397453044-17bb5f994100?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYW5kJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3NjE4NDczMjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hand technology"
+    },
+    {
+      "id": "product-10",
+      "description": "A beautiful set of green tea boxes.",
+      "imageUrl": "https://images.unsplash.com/photo-1721373489867-b95a7b3fe16c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWElMjBzZXR8ZW58MHx8fHwxNzYxODE1MDg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tea set"
+    },
+    {
+      "id": "product-11",
+      "description": "A cup of brewed green tea.",
+      "imageUrl": "https://images.unsplash.com/photo-1593532320143-0fe08058387a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVhJTIwY3VwfGVufDB8fHx8MTc2MTc3ODU1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tea cup"
+    },
+    {
+      "id": "product-12",
+      "description": "Close up of loose leaf green tea.",
+      "imageUrl": "https://images.unsplash.com/photo-1625715490354-9a37e8298bf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0ZWElMjBsZWF2ZXN8ZW58MHx8fHwxNzYxODAyMzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tea leaves"
+    },
+    {
+      "id": "product-13",
+      "description": "A pair of modern running shoes.",
+      "imageUrl": "https://images.unsplash.com/photo-1587587448924-b5a1db520d29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxydW5uaW5nJTIwc2hvZXN8ZW58MHx8fHwxNzYxNzM1OTk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "running shoes"
+    },
+    {
+      "id": "product-14",
+      "description": "Sole of a running shoe.",
+      "imageUrl": "https://images.unsplash.com/photo-1724921195452-6a54a4ef8a43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaG9lJTIwc29sZXxlbnwwfHx8fDE3NjE3MzY3NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shoe sole"
+    },
+    {
+      "id": "product-15",
+      "description": "Runner tying shoelaces.",
+      "imageUrl": "https://images.unsplash.com/photo-1659090615656-348c1f987c32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cnVubmVyJTIwc2hvZXN8ZW58MHx8fHwxNzYxODQ3MzI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "runner shoes"
+    },
+    {
+      "id": "product-16",
+      "description": "A compact 4k action camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1616858714873-8633cf61f5c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhY3Rpb24lMjBjYW1lcmF8ZW58MHx8fHwxNzYxNzYzMzM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "action camera"
+    },
+    {
+      "id": "product-17",
+      "description": "Action camera mounted on a helmet.",
+      "imageUrl": "https://images.unsplash.com/photo-1562940928-b15197e01d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYW1lcmElMjBoZWxtZXR8ZW58MHx8fHwxNzYxODQ3MzI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "camera helmet"
+    },
+    {
+      "id": "product-18",
+      "description": "Underwater shot taken with an action camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1533556364947-d1217eab6c1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx1bmRlcndhdGVyJTIwcGhvdG98ZW58MHx8fHwxNzYxODQ3MzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "underwater photo"
+    },
+    {
+      "id": "product-19",
+      "description": "A set of non-stick pans and pots.",
+      "imageUrl": "https://images.unsplash.com/photo-1670768554366-8da3e60f1af8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb29rd2FyZSUyMHNldHxlbnwwfHx8fDE3NjE3NTQ0ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cookware set"
+    },
+    {
+      "id": "product-20",
+      "description": "Cooking with a non-stick pan.",
+      "imageUrl": "https://images.unsplash.com/photo-1477951324676-cd9dab85abd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb29raW5nJTIwcGFufGVufDB8fHx8MTc2MTc0NjM3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cooking pan"
+    },
+    {
+      "id": "product-21",
+      "description": "Close up of a non-stick surface.",
+      "imageUrl": "https://images.unsplash.com/photo-1675328657878-194029e7ccbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYW4lMjBzdXJmYWNlfGVufDB8fHx8MTc2MTg0NzMyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pan surface"
+    },
+    {
+      "id": "product-22",
+      "description": "The book cover of The Alchemist.",
+      "imageUrl": "https://images.unsplash.com/photo-1641154748135-8032a61a3f80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzYxNzM5NTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover"
+    },
+    {
+      "id": "product-23",
+      "description": "An open book with text.",
+      "imageUrl": "https://images.unsplash.com/photo-1495640388908-05fa85288e61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcGVuJTIwYm9va3xlbnwwfHx8fDE3NjE4MzA0MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "open book"
+    },
+    {
+      "id": "product-24",
+      "description": "A person reading The Alchemist.",
+      "imageUrl": "https://images.unsplash.com/photo-1612477954469-c6a60de89802?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjByZWFkaW5nfGVufDB8fHx8MTc2MTc2OTIzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person reading"
+    }
+  ]
+}
