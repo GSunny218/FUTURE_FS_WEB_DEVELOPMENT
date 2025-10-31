@@ -16,9 +16,9 @@ body {
 .main-body {
     display: flex;
     flex-direction: row;
-    height: calc(100vh - 80px);
     min-width: 400px;
     max-width: 100%;
+    height: auto;
 }
 
 .intro-container {
