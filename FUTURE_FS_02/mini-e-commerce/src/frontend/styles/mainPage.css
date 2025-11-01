@@ -32,12 +32,32 @@
     font-size: 40px;
     color: #555555;
     margin-top: 10px;
+    @media (max-width: 1200) {
+        font-size: 10px;
+    }
 }
 
 .auth-buttons {
     margin-top: 20px;
     display: flex;
     gap: 10px;
+}
+
+.cart-btn {
+    background-color: #1bff2e;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.cart-btn:hover {
+    background-color: #14b81f;
+    transition: all 1s ease;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    transform: scale(1.05);
 }
 
 .login-btn {
@@ -47,11 +67,121 @@
     padding: 15px 40px;
     cursor: pointer;
     text-decoration: none;
+    margin: 0 0 0 10px;
 }
 
 .login-btn:hover {
     background-color: #1a2bb8;
     transition: all 1s ease;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+.section-1-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.shoe-video {
+    margin: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    border: #000000 2px solid;
+    object-fit: cover;
+    min-width: 300px;
+    min-height: auto;
+}
+
+.ads-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2545fd;
+    margin-top: 15px;
+}
+
+.section-2 {
+    padding: 50px;
+}
+
+.section-2-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;  
+    align-items: center;
+    @media (max-width: 1600px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 1500px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 1200px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.shoe-1, .shoe-2, .shoe-3, .shoe-4, .shoe-5, .shoe-6, .shoe-7, .shoe-8, .shoe-9 {
+    width: 350px;
+    height: 500px;
+    border: #000000 2px solid;
+    border-radius: 30px;
+    background-color: #ffffff;
+    min-width: 200px;
+    min-height: auto;
+}
+
+.shoe-1:hover, .shoe-2:hover, .shoe-3:hover, .shoe-4:hover, .shoe-5:hover, .shoe-6:hover, .shoe-7:hover, .shoe-8:hover, .shoe-9:hover {
+    box-shadow: 0 4px 15px rgb(0, 0, 0);
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.shoe-1-pic, .shoe-2-pic, .shoe-3-pic, .shoe-4-pic, .shoe-5-pic, .shoe-6-pic, .shoe-7-pic, .shoe-8-pic, .shoe-9-pic {
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.shoe-details {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoe-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.shoe-price {
+    font-size: 20px;
+    color: #ff4545;
+    text-align: center;
+}
+
+.cart-button {
+    background-color: #2545fd;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 15px 100px;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.cart-button:hover {
+    background-color: #1a2bb8;
+    transition: all 0.5s ease;
     box-shadow: 0 4px 10px rgb(0, 0, 0);
     transform: scale(1.05);
 }
